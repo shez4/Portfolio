@@ -250,7 +250,7 @@ video{
 }
 
 .showcase2 .year-22 p{
-  text-align: center;
+  text-align: start;
 }
 
 .showcase2 .modules li{
@@ -293,7 +293,7 @@ video{
 
 .showcase2 .modules details p{
   /* padding-left: 290px; */
-  align-items: center;
+  align-items: start;
   
 }
 
@@ -302,7 +302,7 @@ details{
 }
 
 .applications ul li{
-  margin-left: 290px;
+  margin-left: 0px;
   
 }
 
@@ -358,7 +358,7 @@ details{
 
 .showcase3 .work ul li{
   /* margin-left: 290px; */
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 @media (max-width: 904px) {
@@ -379,13 +379,18 @@ details{
   font-weight: 300;
 }
 
-.work ul li{
+/* .work ul li{
   margin-left: 290px;
+} */
+
+#skills ul{
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
-#skills ul li{
+/* #skills ul li{
   margin-left: 290px;
-}
+} */
 
 @media (max-width: 904px) {
   #skills ul li{
